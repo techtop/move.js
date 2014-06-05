@@ -1,0 +1,28 @@
+{
+  "name": "move.js",
+  "description": "CSS3 backed JavaScript animation framework",
+  "repo": "techtop/move.js",
+  "version": "0.3.3",
+  "keywords": [
+    "animation",
+    "css3"
+  ],
+  "scripts": [
+    "index.js"
+  ],
+  "dependencies": {
+    "has-translate3d": "techtop/has-translate3d",
+    "after-transition": "techtop/after-transition",
+    "emitter": "component/emitter",
+    "css-ease": "yields/css-ease",
+    "query": "component/query"
+  },
+  "main": "index.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
